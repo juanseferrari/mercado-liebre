@@ -1,0 +1,184 @@
+/* --------------------- Clases ---------------*/
+.precio {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+.descuento {
+    font-size: 16px;
+    color: green;
+    margin-top: 2px;
+}
+
+.descripcion {
+    font-size: 16px;
+    padding: 0 0 15px 0;
+}
+
+.nav-logo {
+    display: flex;
+}
+.logo-principal {
+    width: 50%;
+}
+.form-searchbar input{
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+
+
+.menu {
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+}
+.menu i{
+    background-color: #03264C;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.contenedor-info {
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+
+}
+.contenedor-info p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.container-principal {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-principal{
+    display:none;
+
+}
+.nav-principal a{
+    color: black;
+    
+}
+
+
+.imagen-articulo{
+    padding: 5%;
+}
+.titulo-principal {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+header h3 {
+    margin: 15px;
+}
+
+
+/*----------------- Productos --------------------------*/
+.camion{
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px 5px 6px 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    color: green;
+    right: -80px;
+    top: -25px;
+}
+.product-wrapper {
+    padding: 10px;
+    width: 50%;
+} 
+
+
+
+/* --------------- CONTENIDO X ID -----------------------*/
+
+
+
+
+
+/*------------- Registro -----------------*/
+
+.form-input label{
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.form-input select {
+    margin: 5px;
+    height: 30px;
+}
+.form-input button{
+    display: block;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.form-input input {
+    width: 80%;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.form-input input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-categorias {
+    display: block;
+}
+.form-categorias-individual {
+    display: flex;
+}
+.form-categorias-individual label {
+    margin-left: 15px;
+}
+.form-botones{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.form-botones button{
+    margin: 10px 15px;
+    border: none;
+    background-clip: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+/*--------------- Footer ------------- */
+.footer-principal {
+    margin: 10px;
+}
+.footer-container {
+    display: block;
+
+}
+.footer-container section {
+    margin: 15px 0;
+}
+
+/*----------------- MEDIA QUERIES ------------------------*/
+
