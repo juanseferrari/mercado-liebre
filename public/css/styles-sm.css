@@ -16,10 +16,21 @@
 
 .nav-logo {
     display: flex;
+    align-items: center;
 }
-.logo-principal {
+.container-logo {
+    padding: 10px;
+    width: 50%;
+    max-width: 280px;
+}
+.container-searchbar {
     width: 50%;
 }
+.container-searchbar input {
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
 .form-searchbar input{
     height: 40px;
     padding: 10px;
@@ -41,6 +52,11 @@
     color: white;
     
 }
+.contenedor-header {
+    padding: 15px 20px 0 20px;
+
+}
+
 
 .contenedor-info {
     border-top: 1px solid #ebebeb;
@@ -56,6 +72,7 @@
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .nav-principal{
@@ -98,7 +115,10 @@ header h3 {
 }
 .product-wrapper {
     padding: 10px;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 
@@ -111,32 +131,66 @@ header h3 {
 
 /*------------- Registro -----------------*/
 
+
+.main-login {
+    height: 60%;
+}
+.form-registro {
+    max-width: 800px;
+}
+.container-login {
+    display: flex;
+    justify-content: center;
+}
+.container-login-2 {
+    max-width: 800px;
+    width: 100%;
+}
+.form-input {
+    justify-content: center;
+}
+
+
 .form-input label{
     display: block;
-    font-size: 16px;
-    margin: 5px 0;
+    font-size: 18px;
+    margin: 10px 0;
 }
 .form-input select {
     margin: 5px;
     height: 30px;
 }
-.form-input button{
+.form-input button {
     display: block;
     font-size: 16px;
-    height: 30px;
-    margin-top: 10px;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
 }
 
 .form-input input {
-    width: 80%;
+    width: 100%;
     border: none;
-    height: 25px;
+    height: 40px;
     border-radius: 5px;
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 .form-input input[type="checkbox"] {
     display: inline-block;
     width: auto;
+}
+
+.form-input select {
+    margin: 0 auto;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 18px;
+    padding: 5px;
 }
 
 .form-categorias {
@@ -149,18 +203,22 @@ header h3 {
     margin-left: 15px;
 }
 .form-botones{
-    display: flex;
+    display: block;
     justify-content: center;
 
 }
 .form-botones button{
-    margin: 10px 15px;
+    margin: 30px 0;
     border: none;
-    background-color: blue;
+    background-color: #1259c3;
     color: white;
-    border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
+}
+
+.form-botones [type="reset"] {
+    background-color: #ee103f;
+
 }
 
 
